@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    let name = "John"
+    let age = 25
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        let message = "My name is \(name) and I am \(age) years old."
+        Text(message)
+            .font(.custom("Courier New", size: 18))
+            .foregroundColor(Color(red: 0.3, green: 0.5, blue: 0.8))
+            .bold()
+            .italic()
+            .underline()
+            .lineLimit(2)
+            .truncationMode(.middle)
+            .padding()
+        
+        
     }
 }
 
