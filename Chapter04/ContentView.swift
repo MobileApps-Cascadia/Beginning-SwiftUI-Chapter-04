@@ -36,12 +36,70 @@ struct ContentView: View {
                 .background(Color.blue)
                 .clipShape(Circle())
                 .frame(width: 100, height: 100)
- //Icon Obtained from "https://icons8.com/icon/51974/xcode"
-                    Image("icons8-xcode-48")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                }
+            //Icon Obtained from "https://icons8.com/icon/51974/xcode"
+            Image("icons8-xcode-48")
+                .resizable()
+                .frame(width: 100, height: 100)
+            
+            VStack {
+                        Text(message)
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(Color(.sRGB, red: 0.1, green: 0.5, blue: 0.8, opacity: 1.0))
+                            .bold()
+                            .italic()
+                            .underline()
+                            .lineLimit(2)
+                            .truncationMode(.middle)
+                            .padding()
+                        
+                        Text("Font examples:")
+                            .font(.headline)
+                        
+                        Text(message)
+                            .font(.custom("Courier New", size: 20))
+                            .foregroundColor(.red)
+                            .lineLimit(2)
+                            .truncationMode(.middle)
+                            .padding()
+                        
+                        Text("Color examples:")
+                            .font(.headline)
+                        
+                        Text(message)
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(.green)
+                            .lineLimit(2)
+                            .truncationMode(.middle)
+                            .padding()
+                        
+                        Text("Length examples:")
+                            .font(.headline)
+                        
+                        Text("One line")
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(.orange)
+                            .lineLimit(2)
+                            .truncationMode(.middle)
+                            .padding()
+                        
+                        Text("Exactly two lines\nwith a line break")
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(.purple)
+                            .lineLimit(2)
+                            .truncationMode(.middle)
+                            .padding()
+                        
+                        Text("More than two lines\nwith multiple line breaks\nin the message text")
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(.blue)
+                            .lineLimit(2)
+                            .truncationMode(.middle)
+                            .padding()
+                    }
+        }
                 .padding()
+        
+        
     }
 }
 
