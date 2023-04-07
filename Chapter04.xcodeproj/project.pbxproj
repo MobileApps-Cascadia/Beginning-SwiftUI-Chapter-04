@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F38B72E29DFB62F00AFE6BE /* HewittEstates&Antiques_Clock - B&W.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3F38B72D29DFB62F00AFE6BE /* HewittEstates&Antiques_Clock - B&W.svg */; };
 		E4731FE429D8A96B008E7D53 /* Chapter04App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4731FE329D8A96B008E7D53 /* Chapter04App.swift */; };
 		E4731FE629D8A96B008E7D53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4731FE529D8A96B008E7D53 /* ContentView.swift */; };
 		E4731FE829D8A96E008E7D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4731FE729D8A96E008E7D53 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F38B72D29DFB62F00AFE6BE /* HewittEstates&Antiques_Clock - B&W.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "HewittEstates&Antiques_Clock - B&W.svg"; path = "../../../../Hewitt Estates & Antiques/HewittEstates&Antiques_Clock - B&W.svg"; sourceTree = "<group>"; };
 		E4731FE029D8A96B008E7D53 /* Chapter04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4731FE329D8A96B008E7D53 /* Chapter04App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter04App.swift; sourceTree = "<group>"; };
 		E4731FE529D8A96B008E7D53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				E4731FEA29D8A96E008E7D53 /* Preview Assets.xcassets */,
+				3F38B72D29DFB62F00AFE6BE /* HewittEstates&Antiques_Clock - B&W.svg */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4731FEB29D8A96E008E7D53 /* Preview Assets.xcassets in Resources */,
+				3F38B72E29DFB62F00AFE6BE /* HewittEstates&Antiques_Clock - B&W.svg in Resources */,
 				E4731FE829D8A96E008E7D53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
